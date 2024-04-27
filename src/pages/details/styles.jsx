@@ -39,7 +39,6 @@ export const ContainerAbility = styled.div`
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-right: 190px;
   @media (max-width: 1024px) {
     margin-top: -30px;
   }
