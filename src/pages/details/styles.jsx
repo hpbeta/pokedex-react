@@ -18,6 +18,10 @@ export const Container = styled.div`
    margin: 150px 7px;
   }
 
+  @media (max-height: 846px) {
+    margin: 160px 0;
+  }
+
   @media (max-width: 395px) {
    margin: 200px 0;
   }
@@ -50,6 +54,7 @@ export const ContainerAbility = styled.div`
 
   @media (max-width: 414px) {
     width: 350px;
+    margin-top: -50px;
   }
 `;
 
@@ -116,9 +121,11 @@ export const Buttons = styled.div`
 
   @media (max-width: 414px) {
     width: 380px;
+    
   }
 
   @media (max-width: 395px) {
-   width: 350px;
+   width: 330px;
+   padding: 10px 30px;
   }
 `;
